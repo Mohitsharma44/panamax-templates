@@ -1,0 +1,11 @@
+---
+name: test_jupyter_nb
+description: 'Test jupyter notebook from dockerhub: https://hub.docker.com/r/jupyter/datascience-notebook/'
+keywords: ''
+type: Default
+documentation: Test
+images:
+- name: jupyter_datascience-notebook_latest
+  source: jupyter/datascience-notebook:latest
+  category: jupyter-notebook
+  type: Default
